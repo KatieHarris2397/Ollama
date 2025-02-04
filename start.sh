@@ -1,5 +1,5 @@
 #!/bin/bash
 
-/bin/ollama serve &
-sleep 30
+nohup /bin/ollama serve &
+sleep 10
 /bin/ollama run $OLLAMA_MODEL
