@@ -1,4 +1,4 @@
-name: Build and Push Kd-Chat Docker Image to GHCR (initialization purposes only)
+name: Build and Push Ollama Docker Image to GHCR (initialization purposes only)
 
 on:
   workflow_dispatch:  # Allows the workflow to be triggered manually from the GitHub UI
